@@ -1,5 +1,5 @@
 {
-  "name":"Engine Data Test Node",
+  "name":"MakerPlane Engine Data Simulation Node",
   "type":"0x40",
   "model":"0x0A0B0F",
   "version":"0x01",

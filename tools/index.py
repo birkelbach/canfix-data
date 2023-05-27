@@ -43,7 +43,7 @@ output['eds_index'] = eds
 
 eds_path = "../data/eds"
 dirlist = os.listdir("../data/eds")
-baseuri = "https://github.com/somestupidfiles/"
+baseuri = "https://raw.githubusercontent.com/birkelbach/canfix-data/master/data/eds/"
 
 for filename in dirlist:
     if filename[-5:] == ".json":
@@ -66,6 +66,7 @@ for filename in dirlist:
     
     dd["modified"] = datetime.datetime.fromtimestamp(t).isoformat()
     dd["sha256"] = sha.hexdigest()
+    dd["filename"] = filename # We will have to make sure that these are unique
     dd["uri"] = baseuri + filename
     eds.append(dd)
     

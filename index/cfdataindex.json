@@ -1,1 +1,67 @@
-{"name": "CAN-FiX Data Distribution Index", "version": 1.0, "updated": "2023-05-27T22:54:22.874700", "eds_index": [{"name": "Utility Test Node", "type": "0xFE", "model": "0x000001", "version": "0x01", "modified": "2023-05-17T16:55:32.875713", "sha256": "477b643f96376feab625ea6524d258b86c771c7f1619c081e7ead71ca0222ab4", "uri": "https://github.com/somestupidfiles/test_node.json"}, {"name": "Airdata Test Node", "type": "0x32", "model": "0x0A0B0C", "version": "0x01", "modified": "2019-05-10T10:37:48", "sha256": "b034acbb53e7dbfb36624788d8574c35d6fef3cff11e29a73a5be10fe5d62897", "uri": "https://github.com/somestupidfiles/mp_sim_airdata.json"}, {"name": "MakerPlane Engine Information System", "type": "0x40", "model": "0x000001", "version": "0x01", "modified": "2020-12-03T16:17:35", "sha256": "aa040da8b6e059423daa596dbd6ad8c8f893494573ffe0d5d84ac67895766b63", "uri": "https://github.com/somestupidfiles/MPEISr1.json"}, {"name": "MakerPlane Switch Input", "type": "0x23", "model": "0x770001", "version": "0x01", "modified": "2023-05-27T16:32:05.272229", "sha256": "86046e95a4be197a25c6c9dbea92307fe34e9688cecf8af8ddf0102da96ef0a5", "uri": "https://github.com/somestupidfiles/MPDI12r1.json"}, {"name": "MakerPlane MGL RDAC Interface", "type": "0xA4", "model": "0x770001", "version": "0x01", "modified": "2023-03-23T10:20:29.978476", "sha256": "9a865fef3c5eb7b9557212587220aa9c611989183dffea49d02f3ac3fc4eac5a", "uri": "https://github.com/somestupidfiles/mgleisgwA4.json"}, {"name": "MakerPlane CAN / Serial Gateway", "type": "0xB3", "model": "0x000001", "version": "0x01", "modified": "2020-12-03T16:27:45", "sha256": "6b96435eb1b88e158662522b795a501918996bdb02badc979e56f81fe7c09cad", "uri": "https://github.com/somestupidfiles/canserial.json"}, {"name": "Engine Data Test Node", "type": "0x40", "model": "0x0A0B0F", "version": "0x01", "modified": "2023-05-26T16:14:36.058038", "sha256": "c9fcda288a167dc6df71a2d5cddd40c25b8afdeb96389053d49543c545522930", "uri": "https://github.com/somestupidfiles/mp_sim_engine.json"}]}
+{
+  "name": "CAN-FiX Data Distribution Index",
+  "version": 1.0,
+  "updated": "2023-05-27T23:37:00.984279",
+  "eds_index": [
+    {
+      "name": "MakerPlane Airdata Simulation Node",
+      "type": "0x32",
+      "model": "0x0A0B0C",
+      "version": "0x01",
+      "modified": "2023-05-27T18:36:51.010505",
+      "sha256": "6e30a558f792972bdf191bddf7d48ef6810db5b7c84bea771adbd59885addd43",
+      "filename": "mp_sim_airdata.json",
+      "uri": "https://raw.githubusercontent.com/birkelbach/canfix-data/master/data/eds/mp_sim_airdata.json"
+    },
+    {
+      "name": "MakerPlane Engine Information System",
+      "type": "0x40",
+      "model": "0x000001",
+      "version": "0x01",
+      "modified": "2020-12-03T16:17:35",
+      "sha256": "aa040da8b6e059423daa596dbd6ad8c8f893494573ffe0d5d84ac67895766b63",
+      "filename": "MPEISr1.json",
+      "uri": "https://raw.githubusercontent.com/birkelbach/canfix-data/master/data/eds/MPEISr1.json"
+    },
+    {
+      "name": "MakerPlane Switch Input",
+      "type": "0x23",
+      "model": "0x770001",
+      "version": "0x01",
+      "modified": "2023-05-27T16:32:05.272229",
+      "sha256": "86046e95a4be197a25c6c9dbea92307fe34e9688cecf8af8ddf0102da96ef0a5",
+      "filename": "MPDI12r1.json",
+      "uri": "https://raw.githubusercontent.com/birkelbach/canfix-data/master/data/eds/MPDI12r1.json"
+    },
+    {
+      "name": "MakerPlane MGL RDAC Interface",
+      "type": "0xA4",
+      "model": "0x770001",
+      "version": "0x01",
+      "modified": "2023-03-23T10:20:29.978476",
+      "sha256": "9a865fef3c5eb7b9557212587220aa9c611989183dffea49d02f3ac3fc4eac5a",
+      "filename": "mgleisgwA4.json",
+      "uri": "https://raw.githubusercontent.com/birkelbach/canfix-data/master/data/eds/mgleisgwA4.json"
+    },
+    {
+      "name": "MakerPlane CAN / Serial Gateway",
+      "type": "0xB3",
+      "model": "0x000001",
+      "version": "0x01",
+      "modified": "2020-12-03T16:27:45",
+      "sha256": "6b96435eb1b88e158662522b795a501918996bdb02badc979e56f81fe7c09cad",
+      "filename": "canserial.json",
+      "uri": "https://raw.githubusercontent.com/birkelbach/canfix-data/master/data/eds/canserial.json"
+    },
+    {
+      "name": "MakerPlane Engine Data Simulation Node",
+      "type": "0x40",
+      "model": "0x0A0B0F",
+      "version": "0x01",
+      "modified": "2023-05-27T18:35:49.737986",
+      "sha256": "dd3891a9d508dd94dd7130136d8900ffaee671f7de0e1b43acfb76c78b13a866",
+      "filename": "mp_sim_engine.json",
+      "uri": "https://raw.githubusercontent.com/birkelbach/canfix-data/master/data/eds/mp_sim_engine.json"
+    }
+  ]
+}
